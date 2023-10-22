@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/website_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:backgroundTint="#A1E91E63"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/edittext_uri" />
+
+    <Button
+        android:id="@+id/open_website_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:onClick="openWebsite"
+        android:text="@string/button_uri"
+        android:textColor="#131313"
+        app:backgroundTint="#CED3CACA" />
+
+    <EditText
+        android:id="@+id/location_edittext"
+        android:text="@string/edittext_loc"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+
+        />
+
+    <Button
+        android:id="@+id/open_location_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:onClick="openLocation"
+        android:text="@string/button_loc"
+        android:textColor="#1C1B1B"
+        app:backgroundTint="#CED3CACA" />
+    <EditText
+        android:id="@+id/share_edittext"
+        android:text="@string/edittext_share"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+
+        />
+
+    <Button
+        android:id="@+id/share_text_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:onClick="shareText"
+        android:text="@string/button_share"
+        android:textColor="#1C1B1B"
+        app:backgroundTint="#CED3CACA" />
+
+    <Button
+        android:id="@+id/btnTakePicture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TAKE A PICTURE"
+        android:textColor="#1C1B1B"
+        app:backgroundTint="#CED3CACA" />
+
+</LinearLayout>
